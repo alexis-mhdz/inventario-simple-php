@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    background-color: #3C3C3C;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.footer .text{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer .logout a {
+    color: #FFFFFF;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #a23131;
+    cursor: pointer;
+    text-transform: uppercase;
+}

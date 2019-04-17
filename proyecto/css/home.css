@@ -1,0 +1,19 @@
+.home-options {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    position: relative; 
+}
+.home-options li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+.home-options li:last-child { border-bottom: none; }
+.home-options li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #113f67;
+    color: #FFFFFF;
+}
+.home-options li a:hover { background-color: #87c0cd; }

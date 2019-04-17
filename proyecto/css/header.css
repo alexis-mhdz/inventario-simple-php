@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    background-color: #3C3C3C;
+    overflow: auto;
+}
+.header a {
+    float: left;
+    text-align: center;
+    width: 14.28%;
+    color: #FFFFFF;
+    font-size: 26px;
+    padding: 12px 0px;
+    transition: background-color 0.3s;
+}
+.header a:hover {
+    background-color: #113f67;
+}

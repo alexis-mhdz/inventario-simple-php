@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*---------------------------------- ESTILOS GENERALES ---------------------------------- */
+.box {
+    width: 90%;
+    max-width: 540px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.link { text-decoration: none; }
+.link:hover { font-weight: bold; }
+
+/*---------------------------------- ESTILOS DE FORMULARIOS ---------------------------------- */
+.form {
+    padding: 8px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+}
+
+.form .form-input,
+.form .form-label,
+.form .form-submit {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.form .form-input {
+    padding: 10px 20px;
+}
+
+.form .form-label {
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form .form-submit {
+    padding: 10px;
+    background-color: #113f67;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 1px solid #022c43;
+    text-transform: uppercase;
+}
+.form .form-submit:hover {
+    background-color: #226597;
+    font-weight: bold;
+}
+
+/*---------------------------------- ESTILOS DE ALERTAS ---------------------------------- */
+.alert {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.alert.alert-danger { background-color: #c7004c; }
+.alert.alert-warning { background-color: #f3ae4b; }
+.alert.alert-success { background-color: #a1dd70; }
+
+/*---------------------------------- ESTILOS DE BOTONES ---------------------------------- */
+.btn {
+    padding: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.btn.btn-primary { background-color: #226597; }
+.btn.btn-success { background-color: #a1dd70; }
+.btn.btn-warning { background-color: #f3ae4b; }
+.btn.btn-danger { background-color: #c7004c; }
